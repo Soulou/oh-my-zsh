@@ -1,3 +1,7 @@
+function git_compare_version() {
+	return 0
+}
+
 # get the name of the branch we are on
 function git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
